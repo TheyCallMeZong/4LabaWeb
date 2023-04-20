@@ -1,0 +1,24 @@
+.books{
+    color: #D2B48C;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+span{
+    color: #FFB6C1;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: #D2B48C;
+}
+
+.arrivals{
+    margin-top: 700px;
+    height: auto;
+}

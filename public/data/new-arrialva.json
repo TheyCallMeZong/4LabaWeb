@@ -1,0 +1,47 @@
+{
+  "books": [
+    {
+      "title": "Гарри Поттер ВСЕ ЧАСТИ!!",
+      "author": "Джоан Роулинг",
+      "image": "https://thumbs.dfs.ivi.ru/storage28/contents/c/f/3f4229df49ec0493499d7ddcdd2ca0.jpg",
+      "price": 5000,
+      "currency": "₽",
+      "category": "Фентези, Приключения",
+      "description": "Мальчик пытается убить лысого мужика и убивает",
+      "size": 130
+    },
+
+    {
+      "title": "451 градус по фаренгейту ",
+      "author": "Рэй Бредбери",
+      "image": "https://cv6.litres.ru/pub/c/cover_max1500/39507162.jpg",
+      "price": 500,
+      "currency": "₽",
+      "category": "Антиутопия",
+      "description": "Монтаг (имя главного персонажа) оказался против книг",
+      "size": 60
+    },
+
+    {
+      "title": "Вторая жизнь Уве",
+      "author": "Фредрик Бакман",
+      "image": "https://img3.labirint.ru/rc/45bae131ffa32bc4e6f79d2337086b0d/220x340q80/books54/536245/cover.jpg?1563913922",
+      "price": 700,
+      "currency": "₽",
+      "category": "Роман",
+      "description": "Чел хотел умереть, но не умер",
+      "size": 60
+    },
+
+    {
+      "title": "Алхимик",
+      "author": "Пауло Коэльо",
+      "image": "https://libcat.ru/uploads/posts/book/paulo-koelo-alhimik.jpg",
+      "price": 999,
+      "currency": "₽",
+      "category": "Роман",
+      "description": "Это не про химию!",
+      "size": 60
+    }
+  ]
+}
