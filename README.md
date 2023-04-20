@@ -1,4 +1,4 @@
-Shop4ick 
+<h1>Shop4ick</h1>
 
 Разработайте прототип интернет-магазина с использованием руководства доступного по ссылке 
 https://labs.pineview.io/learn-how-to-build-test-and-deploy-a-single-page-app-with-vue-3-vite-and-pinia/
