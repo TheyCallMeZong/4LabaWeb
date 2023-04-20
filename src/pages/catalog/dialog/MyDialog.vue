@@ -29,13 +29,13 @@ export default {
 
 <style lang="scss">
 .v-popup {
-  padding: 16px;
   position: fixed;
   width: 400px;
   background: #D2B48C;
   box-shadow: 0 0 17px 0 #e7e7e7;
+  padding: 16px 0 16px 16px;
   z-index: 10;
-  display: table;
+  margin-left: 36%;
   &__header {
     display: flex;
     justify-content: space-between;

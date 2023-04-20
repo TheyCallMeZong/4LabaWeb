@@ -1,16 +1,17 @@
-<MyDialog v-if="show"
-          @closeInfo="closeInfo"
->
-    Название: {{ book.title }}
-    <br/>
-    Автор: {{book.author}}
-    <br/>
-    Описание: {{book.description}}
-    <br/>
-    Категория: {{book.category}}
-</MyDialog>
+
 <div class="arrivals">
     <h1>Новинки недели!</h1>
+    <MyDialog v-if="show"
+              @closeInfo="closeInfo"
+    >
+        Название: {{ book.title }}
+        <br/>
+        Автор: {{book.author}}
+        <br/>
+        Описание: {{book.description}}
+        <br/>
+        Категория: {{book.category}}
+    </MyDialog>
     <div class="container">
         <div v-for="booki in newArrivals" class="books">
             <p><span> Название новинки:</span> {{ booki.title }}&nbsp;</p>
