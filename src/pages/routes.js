@@ -33,7 +33,7 @@ const routes = [
         component: Catalog
     },
     {
-        path: "/arrivals/",
+        path: "/arrival/",
         component: Arrivals
     }
 ]

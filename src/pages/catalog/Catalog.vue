@@ -1,12 +1,16 @@
-<template>
-  <div>
+<script setup>
+import TopNavbar from "@/components/TopNavbar.vue";
+</script>
 
-  </div>
+<template>
+  <TopNavbar/>
 </template>
 
 <script>
 export default {
-
+  components:{
+    TopNavbar
+  }
 }
 </script>
 

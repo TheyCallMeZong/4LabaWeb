@@ -1,24 +1,67 @@
-.books{
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     color: #D2B48C;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-}
-span{
-    color: #FFB6C1;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 h1{
-    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: bold;
     color: #D2B48C;
+    text-align: center;
 }
 
-.arrivals{
-    margin-top: 700px;
+img {
+    max-width: 100%;
     height: auto;
+}
+
+.books {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 10%);
+    border-radius: 15px;
+}
+
+.books p {
+    margin: 5px 0;
+}
+
+.books img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+*{
+    position: relative;
+}
+
+.buy-btn{
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid #D2B48C;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+}
+
+.buy-btn:hover{
+    background: #D2B48C;
+    color: #000;
+    border: 2px solid #fff;
 }

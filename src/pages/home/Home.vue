@@ -2,6 +2,7 @@
 import TopNavbar from "@/components/TopNavbar.vue";
 import NewArrivals from "@/components/new-arrivals/NewArrivals.vue";
 import BottomNavabar from "@/components/BottomNavabar.vue";
+import Space from "@/components/Space.vue";
 </script>
 
 <template src="./home.html">
@@ -13,7 +14,8 @@ export default {
   components:{
     TopNavbar,
     NewArrivals,
-    BottomNavabar
+    BottomNavabar,
+    Space
   },
 
   computed:{},

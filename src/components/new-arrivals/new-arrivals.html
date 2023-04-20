@@ -1,16 +1,20 @@
 <div class="arrivals">
     <h1>Новинки недели!</h1>
-<div class="container">
-    <div v-for="book in newArrivals" class="books">
-        <p><span> Название новинки:</span> {{ book.title }}&nbsp;</p>
-        <p><span>Описание кинги:</span> {{ book.description }}&nbsp;</p>
-        <p><span>Автор:</span> {{ book.author }}&nbsp;</p>
-        <p><span>Категория:</span> {{ book.category }}</p>
-        <div>
-            <img :src="book.image" alt="photo" :width="book.size"/>
+    <div class="container">
+        <div v-for="book in newArrivals" class="books">
+            <p><span> Название новинки:</span> {{ book.title }}&nbsp;</p>
+            <p><span>Описание кинги:</span> {{ book.description }}&nbsp;</p>
+            <p><span>Автор:</span> {{ book.author }}&nbsp;</p>
+            <p><span>Категория:</span> {{ book.category }}</p>
+            <div>
+                <img :src="book.image" alt="photo" :width="book.size"/>
+            </div>
+            <p><span> Цена: {{ book.price }} {{ book.currency }} </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit" class="buy-btn">
+                    В корзину
+                </button>
+            </p>
         </div>
-        <p><span> Цена: {{ book.price }} {{ book.currency }} </span></p>
     </div>
-    <p></p>
-</div>
 </div>
