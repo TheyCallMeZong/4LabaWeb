@@ -1,5 +1,6 @@
 <script setup>
 import {catalog} from "@/store/catalog";
+import BookItem from "@/components/BookItem/BookItem.vue";
 const store = catalog()
 </script>
 
@@ -8,15 +9,17 @@ const store = catalog()
 
 <script>
 import { mapState, mapActions } from 'pinia'
-
+import MyDialog from "@/pages/catalog/dialog/MyDialog.vue";
 export default {
   data() {
     return {
-      book: Object
+      book: Object,
+      show: false
     };
   },
   components:{
-
+    BookItem,
+    MyDialog
   },
 
   computed: {
@@ -29,6 +32,14 @@ export default {
     ...mapActions(catalog, [
       'fetchNewArrivals'
     ]),
+    showInfo(event){
+      this.book = event
+      this.show = true;
+    },
+
+    closeInfo(){
+      this.show = false;
+    }
   },
 
   created() {

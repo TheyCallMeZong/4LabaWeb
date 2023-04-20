@@ -13,24 +13,6 @@
         Категория: {{book.category}}
     </MyDialog>
     <div class="container">
-        <div v-for="booki in newArrivals" class="books">
-            <p><span> Название новинки:</span> {{ booki.title }}&nbsp;</p>
-            <p><span>Описание кинги:</span> {{ booki.description }}&nbsp;</p>
-            <p><span>Категория:</span> {{ booki.category }}</p>
-            <div>
-                <img :src="booki.image" alt="photo" :width="booki.size"/>
-            </div>
-            <p><span> Цена: {{ booki.price }} {{ booki.currency }} </span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="submit" class="buy-btn">
-                    В корзину
-                </button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="submit" class="buy-btn"
-                    @click="showInfo(booki)">
-                    Подробнее
-                </button>
-            </p>
-        </div>
+        <BookItem v-bind:books="newArrivals" @showInfo="showInfo"/>
     </div>
 </div>

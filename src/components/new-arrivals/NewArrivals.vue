@@ -1,5 +1,6 @@
 <script setup>
 import {useCatalog} from "@/store/arrivals";
+import BookItem from "@/components/BookItem/BookItem.vue";
 const store = useCatalog()
 </script>
 
