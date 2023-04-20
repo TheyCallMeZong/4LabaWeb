@@ -1,6 +1,7 @@
 <script setup>
 import TopNavbar from "@/components/TopNavbar.vue";
 import BottomNavabar from "@/components/BottomNavabar.vue";
+import AllBooks from "@/components/all-books/AllBooks.vue";
 </script>
 
 <template src="./catalog.html"/>
@@ -9,7 +10,8 @@ import BottomNavabar from "@/components/BottomNavabar.vue";
 export default {
   components:{
     TopNavbar,
-    BottomNavabar
+    BottomNavabar,
+    AllBooks
   }
 }
 </script>
