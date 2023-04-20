@@ -1,21 +1,25 @@
 <script setup>
 import TopNavbar from "@/components/TopNavbar.vue";
+import BottomNavabar from "@/components/BottomNavabar.vue";
 </script>
 
-<template>
-  <top-navbar/>
-</template>
+<template src="./about.html"/>
 
 <script>
 export default {
   name: "About",
-
+  props: {
+    show: {
+      type: Boolean,
+      default: false
+    }
+  },
   components:{
-    TopNavbar
+    TopNavbar,
+    BottomNavabar
   }
 }
+
 </script>
 
-<style scoped>
-
-</style>
+<style scoped src="./about.css"/>

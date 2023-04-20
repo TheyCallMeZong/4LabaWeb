@@ -1,18 +1,33 @@
+<MyDialog v-if="show"
+          @closeInfo="closeInfo"
+>
+    Название: {{ book.title }}
+    <br/>
+    Автор: {{book.author}}
+    <br/>
+    Описание: {{book.description}}
+    <br/>
+    Категория: {{book.category}}
+</MyDialog>
 <div class="arrivals">
     <h1>Новинки недели!</h1>
     <div class="container">
-        <div v-for="book in newArrivals" class="books">
-            <p><span> Название новинки:</span> {{ book.title }}&nbsp;</p>
-            <p><span>Описание кинги:</span> {{ book.description }}&nbsp;</p>
-            <p><span>Автор:</span> {{ book.author }}&nbsp;</p>
-            <p><span>Категория:</span> {{ book.category }}</p>
+        <div v-for="booki in newArrivals" class="books">
+            <p><span> Название новинки:</span> {{ booki.title }}&nbsp;</p>
+            <p><span>Описание кинги:</span> {{ booki.description }}&nbsp;</p>
+            <p><span>Категория:</span> {{ booki.category }}</p>
             <div>
-                <img :src="book.image" alt="photo" :width="book.size"/>
+                <img :src="booki.image" alt="photo" :width="booki.size"/>
             </div>
-            <p><span> Цена: {{ book.price }} {{ book.currency }} </span>
+            <p><span> Цена: {{ booki.price }} {{ booki.currency }} </span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button type="submit" class="buy-btn">
                     В корзину
+                </button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit" class="buy-btn"
+                    @click="showInfo(booki)">
+                    Подробнее
                 </button>
             </p>
         </div>

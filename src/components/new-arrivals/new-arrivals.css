@@ -6,10 +6,10 @@ p {
 }
 
 h1{
-    font-family: Georgia, serif;
     font-weight: bold;
     color: #D2B48C;
     text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 img {
@@ -64,4 +64,8 @@ img {
     background: #D2B48C;
     color: #000;
     border: 2px solid #fff;
+}
+
+span{
+    color: #d9a03d;
 }

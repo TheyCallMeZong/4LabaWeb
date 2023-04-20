@@ -1,0 +1,102 @@
+{
+  "books": [
+    {
+      "title": "Гарри Поттер ВСЕ ЧАСТИ!!",
+      "author": "Джоан Роулинг",
+      "image": "https://thumbs.dfs.ivi.ru/storage28/contents/c/f/3f4229df49ec0493499d7ddcdd2ca0.jpg",
+      "price": 5000,
+      "currency": "₽",
+      "category": "Фентези, Приключения",
+      "description": "Мальчик пытается убить лысого мужика и убивает",
+      "size": 156
+    },
+
+    {
+      "title": "451 градус по фаренгейту ",
+      "author": "Рэй Бредбери",
+      "image": "https://cv6.litres.ru/pub/c/cover_max1500/39507162.jpg",
+      "price": 500,
+      "currency": "₽",
+      "category": "Антиутопия",
+      "description": "Монтаг (имя главного персонажа) оказался против книг",
+      "size": 55
+    },
+
+    {
+      "title": "Вторая жизнь Уве",
+      "author": "Фредрик Бакман",
+      "image": "https://img3.labirint.ru/rc/45bae131ffa32bc4e6f79d2337086b0d/220x340q80/books54/536245/cover.jpg?1563913922",
+      "price": 700,
+      "currency": "₽",
+      "category": "Роман",
+      "description": "Чел хотел умереть, но не умер. Довольно интересная книга, но рецензии не будет :(",
+      "size": 60
+    },
+
+    {
+      "title": "Алхимик",
+      "author": "Пауло Коэльо",
+      "image": "https://libcat.ru/uploads/posts/book/paulo-koelo-alhimik.jpg",
+      "price": 999,
+      "currency": "₽",
+      "category": "Роман! НЕ ХИМИЯ",
+      "description": "Добиться воплощения своей Судьбы - вот единственная подлинная обязанность человека…",
+      "size": 60
+    },
+
+    {
+      "title": "Богатый Папа, Бедный Папа",
+      "author": "Роберт Кийосаки",
+      "image": "https://img3.labirint.ru/rc/d4372e092dfa5aac2beaa636bba61f36/363x561q80/books61/606773/cover.jpg?1564037755",
+      "price": 1499,
+      "currency": "₽",
+      "category": "Финансы домашнего хозяйства",
+      "description": "Всю книгу тебе будут говорить, что работать на дядю - плохо, работай на себя",
+      "size": 60
+    },
+
+    {
+      "title": "Самый богатый человек в Вавилоне",
+      "author": "Джордж Самюэль Клейсон",
+      "image": "https://cv1.litres.ru/pub/c/cover_max1500/23593618.jpg",
+      "price": 11999,
+      "currency": "₽",
+      "category": "Саморазвитие",
+      "description": "Эта книга - настоящее лекарство от нищеты. Но купить может только богатый",
+      "size": 60
+    },
+
+    {
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "image": "https://cdn.ast.ru/v2/AST000000000130417/COVER/cover1__w340.jpg",
+      "price": 999,
+      "currency": "₽",
+      "category": "Роман, Антиутопия",
+      "description": "Всемирно известная антиутопия, ставшая реальностью. В 14 лет лучше такое не читать",
+      "size": 60
+    },
+
+    {
+      "title": "Кладбище домашних животных",
+      "author": "Стивен Кинг",
+      "image": "https://cv0.litres.ru/pub/c/cover_max1500/27442307.jpg",
+      "price": 999,
+      "currency": "₽",
+      "category": "Ужасы",
+      "description": "Кто-то умер? Ничего страшного, всегда можно превратить его в зомби",
+      "size": 60
+    },
+
+    {
+      "title": "три порасенка",
+      "author": "Михалков С. В.",
+      "image": "https://img4.labirint.ru/rc/ed2862e8c7f8689c7515366562311468/363x561q80/books21/208630/cover.jpg?1280394613",
+      "price": 100000000,
+      "currency": "₽",
+      "category": "Шедевр",
+      "description": "Живи в доме из кирпича",
+      "size": 60
+    }
+  ]
+}

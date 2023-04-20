@@ -1,19 +1,19 @@
 <script setup>
 import TopNavbar from "@/components/TopNavbar.vue";
+import BottomNavabar from "@/components/BottomNavabar.vue";
 </script>
 
-<template>
-  <TopNavbar/>
-</template>
+<template src="./catalog.html"/>
 
 <script>
 export default {
   components:{
-    TopNavbar
+    TopNavbar,
+    BottomNavabar
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped src="./catalog.css">
 
 </style>
