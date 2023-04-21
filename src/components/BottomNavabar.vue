@@ -1,7 +1,7 @@
 <template>
   <footer>
     <span><a href="https://t.me/oh_semyon" target="_blank">Telegram (Semyon)</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-    <span><a href="https://t.me/hahahhahahahahhahaahhahahahahhahahahahahahahah" target="_blank">Telegram (Kirill)</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><a href="https://t.me/krispymooon" target="_blank">Telegram (Kiryl)</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
     <span><a href="https://github.com/TheyCallMeZong" target="_blank">Github</a></span>
     <p>© 2023 Shop4ick. Права не защищены</p>
   </footer>
