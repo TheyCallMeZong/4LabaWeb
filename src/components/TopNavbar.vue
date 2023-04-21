@@ -19,7 +19,12 @@
 
 <script>
 export default {
-  name: "TopNavbar"
+  name: "TopNavbar",
+  data() {
+    return {
+      count: 0
+    }
+  }
 }
 </script>
 

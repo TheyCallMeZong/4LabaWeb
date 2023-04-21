@@ -1,3 +1,8 @@
+<script setup>
+import {useCart} from '/src/store/cart.js'
+const cart = useCart()
+</script>
+
 <template>
   <div v-for="booki in books" class="books">
     <p><span> Название новинки:</span> {{ booki.title }}&nbsp;</p>
@@ -22,6 +27,8 @@
 </template>
 
 <script>
+import {mapActions} from "pinia";
+
 export default {
   name: "BookItem",
   props:{
@@ -33,9 +40,9 @@ export default {
       this.$emit('showInfo', book)
     },
 
-    addToCart(book){
-      this.$emit("addToCart", book)
-    }
+    ...mapActions(useCart, [
+      'addToCart'
+    ])
   }
 }
 </script>

@@ -39,10 +39,6 @@ export default {
     closeInfo(){
       this.show = false;
     },
-
-    addToCart(){
-      console.log("add")
-    }
   },
 
   created() {

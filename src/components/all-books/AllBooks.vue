@@ -40,10 +40,6 @@ export default {
     closeInfo(){
       this.show = false;
     },
-
-    addToCart(){
-
-    }
   },
 
   created() {
