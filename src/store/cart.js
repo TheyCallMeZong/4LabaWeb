@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-import cart from "@/pages/cart/Cart.vue";
 
 export const useCart = defineStore('cart-store', {
     state: () => {
@@ -12,19 +11,7 @@ export const useCart = defineStore('cart-store', {
         getContents(state) {
             const {cart} = state;
 
-            return cart.reduce((contents, item) => {
-                const index = contents.findIndex(added => added.isbn13 === item.isbn13);
-                if (index > -1 ) {
-                    ++contents[index].quantity;
-
-                    return contents;
-                }
-
-                item.quantity = 1;
-                contents.push(item);
-
-                return contents;
-            }, []);
+            return cart;
         },
 
         count(state) {
@@ -46,7 +33,6 @@ export const useCart = defineStore('cart-store', {
         addToCart(book) {
             this.cart = this.cart.slice(0);
             this.cart.push(book);
-            console.log(this.cart)
         }
     }
 })
