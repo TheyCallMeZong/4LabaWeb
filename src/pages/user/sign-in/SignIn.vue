@@ -1,9 +1,10 @@
 <script setup>
+import Space from "@/components/Space.vue";
 import TopNavbar from '../../../components/TopNavbar.vue';
 </script>
 <template>
   <div>
-
+  <Space/>
     <main class="box">
       <h2>Регистрация</h2>
       <form @submit.prevent>
@@ -49,8 +50,10 @@ import TopNavbar from '../../../components/TopNavbar.vue';
 
 
 export default {
-  name: "SignIn"
-
+  name: "SignIn",
+  components:{
+    Space
+  }
 };
 </script>
 

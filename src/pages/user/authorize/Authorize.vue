@@ -1,4 +1,6 @@
-
+<script setup>
+import Space from "@/components/Space.vue";
+</script>
 <template>
   <Space></Space>
   <div>
@@ -40,7 +42,7 @@
 import TopNavbar from "@/components/TopNavbar.vue";
 
 export default {
-  components: {TopNavbar}
+  components: {TopNavbar, Space}
 
 }
 </script>
