@@ -9,7 +9,7 @@ const store = catalog()
 
 <script>
 import { mapState, mapActions } from 'pinia'
-import MyDialog from "@/pages/catalog/dialog/MyDialog.vue";
+import {Modal} from "usemodal-vue3";
 export default {
   data() {
     return {
@@ -19,7 +19,6 @@ export default {
   },
   components:{
     BookItem,
-    MyDialog
   },
 
   computed: {
@@ -32,19 +31,23 @@ export default {
     ...mapActions(catalog, [
       'fetchNewArrivals'
     ]),
+
     showInfo(event){
       this.book = event
-      this.show = true;
+      this.show = true
     },
 
     closeInfo(){
       this.show = false;
+    },
+
+    addToCart(){
+
     }
   },
 
   created() {
     this.fetchNewArrivals();
-    console.log(this.books)
   }
 };
 </script>

@@ -1,9 +1,6 @@
-
 <div class="arrivals">
     <h1>Новинки недели!</h1>
-    <MyDialog v-if="show"
-              @closeInfo="closeInfo"
-    >
+    <Modal v-model:visible="show" title="Дополнительная информация">
         Название: {{ book.title }}
         <br/>
         Автор: {{book.author}}
@@ -11,8 +8,8 @@
         Описание: {{book.description}}
         <br/>
         Категория: {{book.category}}
-    </MyDialog>
+    </Modal>
     <div class="container">
-        <BookItem v-bind:books="newArrivals" @showInfo="showInfo"/>
+        <BookItem v-bind:books="newArrivals" @showInfo="showInfo" @addToCart="addToCart"/>
     </div>
 </div>

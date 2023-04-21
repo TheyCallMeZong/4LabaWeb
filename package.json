@@ -10,6 +10,7 @@
   "dependencies": {
     "material-design-icons-iconfont": "^5.0.1",
     "pinia": "^2.0.34",
+    "usemodal-vue3": "^0.3.7",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

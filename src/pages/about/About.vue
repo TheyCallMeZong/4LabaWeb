@@ -1,6 +1,7 @@
 <script setup>
 import TopNavbar from "@/components/TopNavbar.vue";
 import BottomNavabar from "@/components/BottomNavabar.vue";
+import Space from "@/components/Space.vue";
 </script>
 
 <template src="./about.html"/>

@@ -8,7 +8,8 @@
     </div>
     <p><span> Цена: {{ booki.price }} {{ booki.currency }} </span>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <button type="submit" class="buy-btn">
+      <button type="submit" class="buy-btn"
+        @click="addToCart(booki)">
         В корзину
       </button>
       &nbsp;&nbsp;&nbsp;
@@ -30,6 +31,10 @@ export default {
   methods:{
     showInfo(book){
       this.$emit('showInfo', book)
+    },
+
+    addToCart(book){
+      this.$emit("addToCart", book)
     }
   }
 }
