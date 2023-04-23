@@ -11,10 +11,9 @@ h3{
     position: relative;
 }
 
-h1{
+.name{
     color: #D2B48C;
     margin-top: 100px;
-    font-family: 'Shadows Into Light Two', cursive;
     position: relative;
 }
 

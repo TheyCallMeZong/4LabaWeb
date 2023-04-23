@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: #000;
 }
 </style>

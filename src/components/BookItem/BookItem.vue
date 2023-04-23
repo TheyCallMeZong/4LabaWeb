@@ -17,7 +17,7 @@ const cart = useCart()
         @click="addToCart(booki)">
         В корзину
       </button>
-      &nbsp;&nbsp;&nbsp;
+      &nbsp;
       <button type="submit" class="buy-btn"
               @click="showInfo(booki)">
         Подробнее
